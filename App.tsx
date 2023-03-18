@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationContainer} from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { HomeScreen, NewWorkoutScreen, AddWorkoutScreen } from "./Screens";
+import { HomeScreen, CreateWorkoutScreen, ChooseWorkoutScreen } from "./Screens";
 
 const Stack = createStackNavigator();
 
@@ -15,13 +15,13 @@ export default function App() {
           options={{ title: "Workout Tracker" }}
         />
         <Stack.Screen
-          name="NewWorkoutScreen"
-          component={NewWorkoutScreen}
+          name="CreateWorkoutScreen"
+          component={CreateWorkoutScreen}
           options={{ title: "New Workout" }}
         />
         <Stack.Screen
-          name="AddWorkoutScreen"
-          component={AddWorkoutScreen}
+          name="ChooseWorkoutScreen"
+          component={ChooseWorkoutScreen}
           options={{ title: "Add Workout" }}
         />
       </Stack.Navigator>
