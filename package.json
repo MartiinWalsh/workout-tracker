@@ -15,7 +15,12 @@
     "react-native": "0.71.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react": "^18.0.28",
+    "@types/react-native": "^0.71.3",
+    "@types/react-native-vector-icons": "^6.4.13",
+    "@types/react-navigation": "^3.4.0",
+    "typescript": "^5.0.2"
   },
   "private": true
 }
